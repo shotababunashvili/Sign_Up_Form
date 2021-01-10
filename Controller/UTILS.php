@@ -58,7 +58,7 @@ function sendMail($email,$subject,$body)
         //echo "email= ".$email."\n";
         //echo "name= ".$name."\n";
         $mail->addAddress($email);
-        //echo "inside mai addAddress email = ".$email."\n";
+
 
         $mail->Subject = $subject;
         $mail->Body = $body;
